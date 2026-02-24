@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are a computational biology research group at the [Department of Medical and Molecular Genetics](https://medicine.iu.edu/genetics) and [Center for Computational Biology and Bioinformatics](https://medicine.iu.edu/research-centers/computational-biology-bioinformatics) of [Indiana University School of Medicine](https://medicine.iu.edu/). Our aim is to explore and understand the regulatory mechanisms of non-coding DNA. The long-term research goal is to answer the key scientific question” How non-coding genetic variant act through context specific gene regulatory network to influence phenotype”. 
+We are a computational biology research group at the [Department of Medical and Molecular Genetics](https://medicine.iu.edu/genetics) and [Center for Computational Biology and Bioinformatics](https://medicine.iu.edu/research-centers/computational-biology-bioinformatics) of [Indiana University School of Medicine](https://medicine.iu.edu/). We aim to make the regulome (the DNA regulatory elements and proteins that control when genes turn on or off) a computable system that explains how genomes shape phenotypes. We go beyond molecular readouts (markers, pathways, and differential signals) to build mechanistic, system-level models of regulation. Regulatory control is context dependent: genetic variants and environmental perturbations (including drugs) can rewire gene regulation within cells and through cell–cell communication, pushing tissues toward disease. Our lab develops element-resolved gene regulatory networks (GRNs) that link cis-regulatory elements, transcription factors, and target genes within cells, and place these networks in tissue context by modeling how cross–cell-type signaling modulates regulatory programs. By combining single-cell, multiomic, and spatial data, we identify regulatory mechanisms that drive disease and generate testable hypotheses about where intervention could restore healthy programs(see [Research](research)).
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
@@ -60,9 +60,6 @@ We are a computational biology research group at the [Department of Medical and 
 </div>
 
 
-
-
-To this end, we develop novel computational tools for integrative analysis of genomics data to infer gene regulatory networks, to detect heterogeneity, and to annotate the regulatory function of genetic variants by context specific manner. (see [Research](research)).
 
 We are part of the <a href="https://medicine.iu.edu">Indiana University School of Medicine </a> <a href="https://medicine.iu.edu/genetics"> Department of Medical and Molecular Genetics</a>, which is located in 410 W. 10th Street, a state-of-the-art research and educational facility located in Indianapolis, Indiana.
     
