@@ -1,8 +1,8 @@
 ---
 title: "Duren Lab - Research"
 layout: archive
+sitemap: false
 permalink: /research/
-author_profile: true
 ---
 
 ## Vision
