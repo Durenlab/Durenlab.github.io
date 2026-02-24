@@ -9,6 +9,9 @@ permalink: /research/
 ## Vision
 **We aim to make the regulome a computable system that explains how genomes shape phenotypes.** Biomedicine is entering an inflection point where multimodal and spatial genomics make system-level regulatory modeling both feasible and necessary. We go beyond molecular readouts—markers, pathways, and differential signals—to build mechanistic, system-level models of regulation. Our lab develops element-resolved gene regulatory networks (GRNs) that link cis-regulatory elements, transcription factors, and target genes within cells, and place these networks in tissue context by modeling how cross-cell-type signaling modulates regulatory programs. By combining single-cell, multiomic, and spatial data, we identify driver regulatory mechanisms that underpin disease and generate testable hypotheses about where intervention could restore healthy programs.
 
+<div style="flex: 0 0 250px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/grn.png" alt="GRN Inference" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+</div>
 
 ## Research Pillars
 
