@@ -18,29 +18,29 @@ permalink: /research/
 ## Research Pillars
 
 <div style="margin-bottom: 40px;">
-  <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
-    <div style="flex: 1; min-width: 300px;">
-      <h3>I. Mechanistic & Element-Resolved GRN Inference</h3>
-      <p>We develop algorithms that model the physical and functional coupling between chromatin accessibility and gene expression, moving beyond simple correlations to resolve regulatory logic at the level of individual <i>cis</i>-elements and transcription factors. Our approach treats the genome not as a static map, but as a dynamic, coupled system.</p>
-      <p><b>Key Frameworks:</b> <b>LINGER</b> (Atlas-informed regulatory learning) and <b>scREG</b> (Cis-regulatory potential modeling).</p>
-    </div>
-    <div style="flex: 0 0 250px;">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/grn.png" alt="GRN Inference" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-    </div>
-  </div>
+<div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
+<div style="flex: 1; min-width: 300px;">
+<h3>I. Mechanistic & Element-Resolved GRN Inference</h3>
+<p>We develop algorithms that model the physical and functional coupling between chromatin accessibility and gene expression, moving beyond simple correlations to resolve regulatory logic at the level of individual <i>cis</i>-elements and transcription factors. Our approach treats the genome not as a static map, but as a dynamic, coupled system.</p>
+<p><b>Key Frameworks:</b> <b>LINGER</b> (Atlas-informed regulatory learning) and <b>scREG</b> (Cis-regulatory potential modeling).</p>
+</div>
+<div style="flex: 0 0 250px;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/grn.png" alt="GRN Inference" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+</div>
+</div>
 </div>
 
 <div style="margin-bottom: 40px;">
-  <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; flex-direction: row-reverse;">
-    <div style="flex: 1; min-width: 300px;">
-      <h3>II. Regulatory Intelligence Across Technology Eras</h3>
-      <p>We create "reusable" regulatory knowledge by developing frameworks that adapt pre-trained regulatory priors to new datasets. This bridges the gap between bulk, single-cell multiome, and RNA-only assays, enabling high-fidelity inference even when paired data is missing or noisy across changing experimental designs.</p>
-      <p><b>Key Frameworks:</b> <b>REGA</b> (RNA-only regulatory inference) and <b>CoupledNMF</b> (Unpaired modality integration).</p>
-    </div>
-    <div style="flex: 0 0 250px;">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/integration.png" alt="Technology Integration" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-    </div>
-  </div>
+<div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; flex-direction: row-reverse;">
+<div style="flex: 1; min-width: 300px;">
+<h3>II. Regulatory Intelligence Across Technology Eras</h3>
+<p>We create "reusable" regulatory knowledge by developing frameworks that adapt pre-trained regulatory priors to new datasets. This bridges the gap between bulk, single-cell multiome, and RNA-only assays, enabling high-fidelity inference even when paired data is missing or noisy across changing experimental designs.</p>
+<p><b>Key Frameworks:</b> <b>REGA</b> (RNA-only regulatory inference) and <b>CoupledNMF</b> (Unpaired modality integration).</p>
+</div>
+<div style="flex: 0 0 250px;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/integration.png" alt="Technology Integration" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+</div>
+</div>
 </div>
 
 <div style="margin-bottom: 40px;">
