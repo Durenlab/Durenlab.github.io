@@ -5,8 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-{% include base_path %}
-
 ## Vision
 **We aim to make the regulome a computable system that explains how genomes shape phenotypes.** Biomedicine is entering an inflection point where multimodal and spatial genomics make system-level regulatory modeling both feasible and necessary. We go beyond molecular readouts—markers, pathways, and differential signals—to build mechanistic, system-level models of regulation. Our lab develops element-resolved gene regulatory networks (GRNs) that link cis-regulatory elements, transcription factors, and target genes within cells, and place these networks in tissue context by modeling how cross-cell-type signaling modulates regulatory programs. By combining single-cell, multiomic, and spatial data, we identify driver regulatory mechanisms that underpin disease and generate testable hypotheses about where intervention could restore healthy programs.
 
@@ -22,7 +20,7 @@ author_profile: true
       <p><b>Key Frameworks:</b> <b>LINGER</b> (Atlas-informed regulatory learning) and <b>scREG</b> (Cis-regulatory potential modeling).</p>
     </div>
     <div style="flex: 0 0 250px;">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/grn.png" alt="GRN Inference" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/grn.PNG" alt="GRN Inference" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
     </div>
   </div>
 </div>
@@ -35,7 +33,7 @@ author_profile: true
       <p><b>Key Frameworks:</b> <b>REGA</b> (RNA-only regulatory inference) and <b>CoupledNMF</b> (Unpaired modality integration).</p>
     </div>
     <div style="flex: 0 0 250px;">
-      <img src="{{ base_path }}/images/integration.png" alt="Technology Integration" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/integration.PNG" alt="Technology Integration" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
     </div>
   </div>
 </div>
@@ -48,7 +46,7 @@ author_profile: true
       <p><b>Key Frameworks:</b> <b>ISON</b> (Spatial GRN inference) and <b>Spatial-Rewiring</b> models.</p>
     </div>
     <div style="flex: 0 0 250px;">
-      <img src="{{ base_path }}/images/spatial.png" alt="Spatial Genomics" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/spatial.PNG" alt="Spatial Genomics" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
     </div>
   </div>
 </div>
@@ -61,7 +59,7 @@ author_profile: true
       <p><b>Key Frameworks:</b> <b>sc-compReg</b> (Comparative GRN analysis) and <b>Reg-Variants</b> (Non-coding variant prioritization).</p>
     </div>
     <div style="flex: 0 0 250px;">
-      <img src="{{ base_path }}/images/disease.png" alt="Disease Rewiring" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/disease.PNG" alt="Disease Rewiring" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
     </div>
   </div>
 </div>
