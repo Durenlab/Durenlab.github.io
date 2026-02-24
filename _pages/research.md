@@ -19,7 +19,7 @@ We develop algorithms that model the physical and functional coupling between ch
 
 **Key Frameworks:** **LINGER** (Atlas-informed regulatory learning) and **scREG** (Cis-regulatory potential modeling).
 
-![]({{ site.url }}{{ site.baseurl }}/images/grn.PNG){: style="width: 50%; float: right; margin-left: 20px; border: 1px solid #eee; border-radius: 8px;"}
+![]({{ site.url }}{{ site.baseurl }}/respic/summary.png){: style="width: 50%; float: right; margin-left: 20px; border: 1px solid #eee; border-radius: 8px;"}
 
 <div style="clear: both;"></div>
 
