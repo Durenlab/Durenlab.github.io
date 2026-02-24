@@ -22,7 +22,7 @@ permalink: /research/
       <p><b>Key Frameworks:</b> <b>LINGER</b> (Atlas-informed regulatory learning) and <b>scREG</b> (Cis-regulatory potential modeling).</p>
     </div>
     <div style="flex: 0 0 250px;">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/grn.PNG" alt="GRN Inference" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/summary.png" alt="GRN Inference" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
     </div>
   </div>
 </div>
