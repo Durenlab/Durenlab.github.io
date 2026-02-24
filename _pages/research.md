@@ -15,6 +15,7 @@ author_profile: true
 ## Research Pillars
 
 ### I. Mechanistic & Element-Resolved GRN Inference
+![]({{ site.url }}{{ site.baseurl }}/images/respic/summary.png){: style="width: 75%; float: none; border: 10px"}
 We develop algorithms that model the physical and functional coupling between chromatin accessibility and gene expression, moving beyond simple correlations to resolve regulatory logic at the level of individual *cis*-elements and transcription factors. Our approach treats the genome not as a static map, but as a dynamic, coupled system.
 
 **Key Frameworks:** **LINGER** (Atlas-informed regulatory learning) and **scREG** (Cis-regulatory potential modeling).
@@ -23,7 +24,6 @@ We develop algorithms that model the physical and functional coupling between ch
 
 <div style="clear: both;"></div>
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/summary.png){: style="width: 75%; float: none; border: 10px"}
 ---
 
 ### II. Regulatory Intelligence Across Technology Eras
