@@ -23,6 +23,7 @@ We develop algorithms that model the physical and functional coupling between ch
 
 <div style="clear: both;"></div>
 
+![]({{ site.url }}{{ site.baseurl }}/images/respic/summary.png){: style="width: 75%; float: none; border: 10px"}
 ---
 
 ### II. Regulatory Intelligence Across Technology Eras
