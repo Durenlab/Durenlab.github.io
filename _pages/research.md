@@ -1,6 +1,6 @@
 ---
 title: "Duren Lab - Research"
-layout: textlay
+layout: gridlay
 excerpt: "Duren Lab -- Research"
 sitemap: false
 permalink: /research/
