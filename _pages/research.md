@@ -33,7 +33,7 @@ permalink: /research/
       <p><b>Key Frameworks:</b> <b>REGA</b> (RNA-only regulatory inference) and <b>CoupledNMF</b> (Unpaired modality integration).</p>
     </div>
     <div style="flex: 0 0 250px;">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/integration.PNG" alt="Technology Integration" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/integration.png" alt="Technology Integration" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
     </div>
   </div>
 </div>
@@ -46,7 +46,7 @@ permalink: /research/
       <p><b>Key Frameworks:</b> <b>ISON</b> (Spatial GRN inference) and <b>Spatial-Rewiring</b> models.</p>
     </div>
     <div style="flex: 0 0 250px;">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/spatial.PNG" alt="Spatial Genomics" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/spatial.png" alt="Spatial Genomics" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
     </div>
   </div>
 </div>
@@ -59,7 +59,7 @@ permalink: /research/
       <p><b>Key Frameworks:</b> <b>sc-compReg</b> (Comparative GRN analysis) and <b>Reg-Variants</b> (Non-coding variant prioritization).</p>
     </div>
     <div style="flex: 0 0 250px;">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/disease.PNG" alt="Disease Rewiring" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/disease.png" alt="Disease Rewiring" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
     </div>
   </div>
 </div>
