@@ -14,6 +14,7 @@ permalink: /research/
     <img src="{{ site.url }}{{ site.baseurl }}/images/respic/grn.png" alt="GRN Inference" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
   </div>
 </div>
+
 ## Research Pillars
 
 <div style="margin-bottom: 40px;">
