@@ -1,6 +1,6 @@
 - title: "Inferring gene regulatory networks from single-cell multiome data using atlas-scale external data"
   image: Linger.png
-  description: we present LINGER (Lifelong neural network for gene regulation), a machine-learning method to infer GRNs from single-cell paired gene expression and chromatin accessibility data. LINGER incorporates atlas-scale external bulk data across diverse cellular contexts and prior knowledge of transcription factor motifs as a manifold regularization. 
+  description: We present LINGER, a machine-learning method to infer gene regulatory networks from single-cell paired data. LINGER incorporates atlas-scale external bulk data across diverse cellular contexts and prior knowledge of transcription factor motifs as a manifold regularization to achieve high-accuracy inference.
   authors: <b> Qiuyue Yuan </b> and <b> Zhana Duren </b>
   link: 
     url: https://doi.org/10.1038/s41587-024-02182-7
@@ -40,7 +40,7 @@
   
 - title: "Integration of single-cell multi-omics data by regression analysis on unpaired observations"
   image: unPairReg.png
-  description: We propose a method named UnpairReg for the regression analysis on unpaired observations to integrate single-cell multi-omics data. On real and simulated data, UnpairReg provides an accurate estimation of cell gene expression where only chromatin accessibility data is available. The cis-regulatory network inferred from UnpairReg is highly consistent with eQTL mapping. UnpairReg improves cell type identification accuracy by joint analysis of single-cell gene expression and chromatin accessibility data. 
+  description: We propose UnpairReg for regression analysis on unpaired observations to integrate single-cell multi-omics data. UnpairReg provides accurate estimations of gene expression from chromatin accessibility data and infers cis-regulatory networks consistent with eQTL mapping, significantly improving cell type identification accuracy.
   authors: <b> Qiuyue Yuan </b> and <b> Zhana Duren </b>
   link: 
     url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02726-7
@@ -50,7 +50,7 @@
   
 - title: "Regulatory analysis of single cell multiome gene expression and chromatin accessibility data with scREG"
   image: scREG.png
-  description: We develop scREG, a dimension reduction methodology, based on the concept of cis-regulatory potential, for single cell multiome data. This concept is further used for the construction of subpopulation-specific cis-regulatory networks. The R package scREG provides comprehensive functions for single cell multiome data analysis. 
+  description: We developed scREG, a dimension reduction methodology based on the concept of cis-regulatory potential for single-cell multiome data. This framework enables the construction of subpopulation-specific regulatory networks and provides a comprehensive R package for advanced multi-omics data integration and analysis.
   authors: <b> Zhana Duren</b>, <b> Fengge Chang</b>, <b> Fnu Naqing</b>, Jingxue Xin, Qiao Liu, and Wing Hung Wong
   link: 
     url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02682-2
@@ -60,7 +60,7 @@
   
 - title: "Sc-compReg enables the comparison of gene regulatory networks between conditions using single-cell data"
   image: scCompReg_overview.png
-  description: We propose sc-compReg as a method for the comparative analysis of gene expression regulatory networks between two conditions using single cell gene expression (scRNA-seq) and single cell chromatin accessibility data (scATAC-seq). 
+  description: We introduce sc-compReg, a computational method designed for the comparative analysis of gene expression regulatory networks between two biological conditions. By integrating scRNA-seq and scATAC-seq data, it identifies key regulatory changes driving transitions between different cellular states or treatments.
   authors: <b>Zhana Duren</b>, Sophia Lu, Joseph G. Arthur, Preyas Shah, Jingxue Xin,  Francesca Meschi, Miranda Lin Li, Corey M. Nemec, Yifeng Yin, and Wing Hung Wong
   link: 
     url: https://www.nature.com/articles/s41467-021-25089-2
@@ -100,7 +100,7 @@
   
 - title: "Modeling regulatory network topology improves genome-wide analyses of complex human traits"
   image: RSS-Net.PNG
-  description: Here we develop a Bayesian framework that integrates GWAS summary statistics with regulatory networks to infer genetic enrichments and associations simultaneously. Our method improves upon existing approaches by explicitly modeling network topology to assess enrichments, and by automatically leveraging enrichments to identify associations. 
+  description: We developed a Bayesian framework that integrates GWAS summary statistics with regulatory networks to infer genetic enrichments and associations. Our method explicitly models network topology to assess enrichments and leverages this information to improve the identification of trait-associated genetic variants.
   authors: Xiang Zhu, <b>Zhana Duren</b>, Wing Hung Wong
   link: 
     url: https://www.nature.com/articles/s41467-021-22588-0
@@ -121,7 +121,7 @@
 
 - title: "A method for scoring the cell type-specific impacts of noncoding variants in personal genomes"
   image: OpenCausal.png
-  description: Here we use the expression and accessibility data from a diverse set of cell types to learn a model for the dependence of the accessibility of a regulatory element on its DNA sequence and TF expression. To interpret a personal genome, we combine the sequence information with context-specific TF expression to prioritize variants and regulatory elements in any genomic region of interest. This approach should be helpful in the study of risk loci previously identified by GWAS. 
+  description: This work presents a model that learns the dependence of regulatory element accessibility on DNA sequences and TF expression. By combining sequence information with context-specific data, the approach prioritizes noncoding variants and regulatory elements, facilitating the interpretation of GWAS risk loci.
   authors: Wenran Li, <b>Zhana Duren</b>, Rui Jiang, Wing Hung Wong
   link:
     url: https://www.pnas.org/content/117/35/21364.short
@@ -131,7 +131,7 @@
   
 - title: "Chromatin accessibility landscape and regulatory network of high-altitude hypoxia adaptation"
   image: vPECA.PNG
-  description: We develop a variant interpretation methodology (vPECA) to identify active selected REs (ASREs) and associated regulatory network. We discover three causal SNPs of EPAS1, the key adaptive gene for Tibetans. These SNPs decrease the accessibility of ASREs with weakened binding strength of relevant TFs, and cooperatively down-regulate EPAS1 expression. 
+  description: We developed vPECA to identify active selected regulatory elements and associated networks in hypoxia adaptation. We discovered three causal SNPs of EPAS1 in Tibetans that decrease chromatin accessibility and weaken TF binding strength, providing a mechanistic understanding of high-altitude adaptation.
   authors: Jingxue Xin, Hui Zhang, Yaoxi He, <b>Zhana Duren</b>, Caijuan Bai, Lang Chen, Xin Luo, Dong-Sheng Yan, Chaoyu Zhang, Xiang Zhu, Qiuyue Yuan, Zhanying Feng, Chaoying Cui, Xuebin Qi, Wing Hung Wong, Yong Wang, Bing Su
   link:
     url: https://www.nature.com/articles/s41467-020-18638-8
@@ -141,7 +141,7 @@
   
 - title: "Time course regulatory analysis based on paired expression and chromatin accessibility data"
   image: TimeReg.png
-  description: We develop a computational tool named TimeReg, which can be used to prioritize regulatory elements, to extract core regulatory modules at each time point, to identify key regulators driving changes of the cellular state, and to causally connect the modules across different time points.
+  description: We developed TimeReg, a computational tool to prioritize regulatory elements and extract core regulatory modules from time-course data. TimeReg identifies key regulators driving cellular state changes and establishes causal connections between regulatory modules across different time points during development.
   authors: <b>Zhana Duren</b>, Xi Chen, Jingxue Xin, Yong Wang, Wing Hung Wong
   link:
     url: https://genome.cshlp.org/content/30/4/622.abstract
@@ -171,7 +171,7 @@
   
 - title: "DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data"
   image: DC3.PNG
-  description: The first joint analysis method of bulk 3D chromatin interaction data with single-cell gene expression and chromatin accessibility from the same heterogeneous cell population. In this work, we introduce DC3 (De-Convolution and Coupled-Clustering) as a method for the joint analysis of various bulk and single-cell data such as HiChIP, RNA-seq and ATAC-seq from the same heterogeneous cell population. DC3 can simultaneously identify distinct subpopulations, assign single cells to the subpopulations (i.e., clustering) and de-convolve the bulk data into subpopulation-specific data. 
+  description: We introduce DC3 (De-Convolution and Coupled-Clustering) for the joint analysis of bulk 3D chromatin data and single-cell genomics. DC3 simultaneously identifies distinct subpopulations, assigns single cells to clusters, and deconvolves bulk data into subpopulation-specific profiles for heterogeneous cell populations.
   authors: Wanwen Zeng, Xi Chen, <b>Zhana Duren</b>, Yong Wang, Rui Jiang, Wing Hung Wong
   link:
     url: https://www.nature.com/articles/s41467-019-12547-1
@@ -201,7 +201,7 @@
 
 - title: "Integrative analysis of single-cell genomics data by coupled nonnegative matrix factorizations"
   image: CoupledNMF.png
-  description: Biological samples are often heterogeneous mixtures of different types of cells. Suppose we have two single-cell datasets, each providing information on a different cellular feature and generated on a different sample from this mixture. Then, the clustering of cells in the two samples should be coupled as both clusterings are reflecting the underlying cell types in the same mixture. This “coupled clustering” problem is a new problem not covered by existing clustering methods. In this paper, we develop an approach for its solution based on the coupling of two nonnegative matrix factorizations. The method should be useful for integrative single-cell genomics analysis tasks such as the joint analysis of single-cell RNA-sequencing and single-cell ATAC-sequencing data.
+  description: We developed a coupled nonnegative matrix factorization approach to solve the "coupled clustering" problem in heterogeneous single-cell datasets. This method enables the joint analysis of different cellular features, such as scRNA-seq and scATAC-seq, generated from different samples within the same biological mixture.
   authors: <b>Zhana Duren</b>, Xi Chen, Mahdi Zamanighomi, Wanwen Zeng, Ansuman T. Satpathy, Howard Y. Chang, Yong Wang, Wing Hung Wong
   link:
     url: https://www.pnas.org/content/115/30/7723.short
@@ -221,7 +221,7 @@
 
 - title: "Modeling gene regulation from paired expression and chromatin accessibility data"
   image: PECA_overview.png
-  description: The PECA is a computational mechanistic model for gene regulatory network from paired gene expression and chroamtin accessibility data. Chromatin plays a critical role in the regulation of gene expression. Interactions among chromatin regulators, sequence-specific transcription factors, and cis-regulatory sequence elements are the main driving forces shaping context-specific chromatin structure and gene expression. The purpose of the present work is to show that, by modeling matched expression and accessibility data across diverse cellular contexts, it is possible to recover a significant portion of the information in the missing data on binding locations and chromatin states and to achieve accurate inference of gene regulatory relations.
+  description: PECA is a mechanistic model that infers gene regulatory networks from paired expression and accessibility data. By modeling matched data across diverse contexts, PECA recovers missing information on binding locations and chromatin states, achieving accurate inference of gene regulatory relations and structure.
   authors: <b>Zhana Duren</b>, Xi Chen, Rui Jiang, Yong Wang, Wing Hung Wong
   link:
     url: https://www.pnas.org/content/114/25/E4914.short
