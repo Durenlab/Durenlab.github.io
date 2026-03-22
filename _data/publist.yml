@@ -40,7 +40,7 @@
   
 - title: "Integration of single-cell multi-omics data by regression analysis on unpaired observations"
   image: unPairReg.png
-  description: We propose UnpairReg for regression analysis on unpaired observations to integrate single-cell multi-omics data. UnpairReg provides accurate estimations of gene expression from chromatin accessibility data and infers cis-regulatory networks consistent with eQTL mapping, significantly improving cell type identification accuracy.
+  description: We propose UnpairReg for regression analysis on unpaired observations to integrate single-cell multi-omics data. UnpairReg provides accurate estimations of gene expression from chromatin accessibility and infers regulatory networks consistent with eQTL mapping, improving cell type identification accuracy.
   authors: <b> Qiuyue Yuan </b> and <b> Zhana Duren </b>
   link: 
     url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02726-7
@@ -141,7 +141,7 @@
   
 - title: "Time course regulatory analysis based on paired expression and chromatin accessibility data"
   image: TimeReg.png
-  description: We developed TimeReg, a computational tool to prioritize regulatory elements and extract core regulatory modules from time-course data. TimeReg identifies key regulators driving cellular state changes and establishes causal connections between regulatory modules across different time points during development.
+  description: We developed TimeReg to prioritize regulatory elements and extract core regulatory modules from time-course data. TimeReg identifies key regulators driving cellular state changes and establishes causal connections between regulatory modules across different time points.
   authors: <b>Zhana Duren</b>, Xi Chen, Jingxue Xin, Yong Wang, Wing Hung Wong
   link:
     url: https://genome.cshlp.org/content/30/4/622.abstract
@@ -201,7 +201,7 @@
 
 - title: "Integrative analysis of single-cell genomics data by coupled nonnegative matrix factorizations"
   image: CoupledNMF.png
-  description: We developed a coupled nonnegative matrix factorization approach to solve the "coupled clustering" problem in heterogeneous single-cell datasets. This method enables the joint analysis of different cellular features, such as scRNA-seq and scATAC-seq, generated from different samples within the same biological mixture.
+  description: We developed a coupled nonnegative matrix factorization approach for "coupled clustering" in heterogeneous single-cell datasets. This method enables the joint analysis of different cellular features generated from different samples within the same biological mixture.
   authors: <b>Zhana Duren</b>, Xi Chen, Mahdi Zamanighomi, Wanwen Zeng, Ansuman T. Satpathy, Howard Y. Chang, Yong Wang, Wing Hung Wong
   link:
     url: https://www.pnas.org/content/115/30/7723.short
