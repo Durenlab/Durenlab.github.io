@@ -54,7 +54,7 @@ permalink: /publications/
 
   <pubtit>{{ publi.title }}</pubtit>
 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="66%" style="float: none" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" style="height: 180px; width: auto; object-fit: contain; margin: 10px auto; display: block;" />
 
   <p>{{ publi.description }}</p>
 
