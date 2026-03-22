@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Presentations"
+title: "Duren Lab - Presentations"
+layout: textlay
 permalink: /presentations/
 ---
 
