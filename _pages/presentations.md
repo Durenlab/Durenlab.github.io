@@ -122,3 +122,83 @@ author_profile: true
 </div>
 
 <div class="talk-item">
+  <span class="talk-title">“Continuous lifelong learning for modeling of gene regulation from single cell multiome data by leveraging atlas-scale external data.”</span>
+  <span class="talk-metadata">Virtual talk, annual retreat of COBRE in human genetics, Clemson University, Oct. 2023, Greenwood, South Carolina.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“Modelling gene regulation via integrative analysis of single cell multi-omics data.”</span>
+  <span class="talk-metadata">Invited talk, BIRS Single-Cell Plus – Data Science Challenges in Single-Cell Research, July 2023, Banff, Alberta, Canada.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“Continuous lifelong learning for modeling of gene regulation from single cell multiome data by leveraging atlas-scale external data.”</span>
+  <span class="talk-metadata">Invited virtual talk, Sydney Precision Data Science Centre at The University of Sydney, March 2023, Sydney, Australia.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“Continuous lifelong learning for modeling of gene regulation from single cell multiome data by leveraging atlas-scale external data.”</span>
+  <span class="talk-metadata">Poster, Cold Spring Harbor Network Biology meeting, March. 2023, Cold Spring Harbor, New York.</span>
+</div>
+
+<hr>
+
+<h2 class="year-header">2022</h2>
+
+<div class="talk-item">
+  <span class="talk-title">“Integration of single-cell multi-omics data by regression analysis on unpaired observations.”</span>
+  <span class="talk-metadata">Poster, Cold Spring Harbor Biological Data Science meeting, Nov. 2022, Cold Spring Harbor, New York.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“Integration of single-cell multi-omics data by regression analysis on unpaired observations.”</span>
+  <span class="talk-metadata">Talk, annual retreat of COBRE in human genetics, Clemson University, Nov 2022, Greenwood, South Carolina.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“Regulatory analysis of single cell multiome gene expression and chromatin accessibility data with scREG.”</span>
+  <span class="talk-metadata">Invited virtual talk, Genentech, May 2022, San Francisco, California.</span>
+</div>
+
+<hr>
+
+<h2 class="year-header">2021</h2>
+
+<div class="talk-item">
+  <span class="talk-title">“Comparison of gene regulatory networks between two conditions using single-cell genomics data.”</span>
+  <span class="talk-metadata">Invited talk, Biostatistics and Bioinformatics, Emory University, Aug. 2021, Atlanta, Georgia.</span>
+</div>
+
+<hr>
+
+<h2 class="year-header">2019 and Prior</h2>
+
+<div class="talk-item">
+  <span class="talk-title">“Time course regulatory analysis based on paired expression and chromatin accessibility data.”</span>
+  <span class="talk-metadata">Poster presentation, 17th annual meeting of CEGS, Nov. 2019. Harvard Medical School, Boston.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“DC3: a method for deconvolution and coupled clustering from bulk and single-cell genomics data.”</span>
+  <span class="talk-metadata">Talk, Center of Excellence in Genomic (CEGS), Feb. 2019, Stanford, California.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“Simultaneous clustering of single-cell genomics data and deconvolution of bulk chromatin interaction data.”</span>
+  <span class="talk-metadata">Talk, Cold Spring Harbor Biological Data Science meeting, Nov. 2018, Cold Spring Harbor, New York.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“Simultaneous clustering of single-cell genomics data and deconvolution of bulk 3D chromatin interaction data.”</span>
+  <span class="talk-metadata">Poster, 16th annual meeting of CEGS, Dec. 2018. Chicago, Illinois.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“Integrative analysis of single-cell genomics data by coupled nonnegative matrix factorizations.”</span>
+  <span class="talk-metadata">Talk, Center of Excellence in Genomic (CEGS), Aug. 2018, Stanford, California.</span>
+</div>
+
+<div class="talk-item">
+  <span class="talk-title">“Modelling gene regulatory network from paired gene expression and chromatin accessibility data.”</span>
+  <span class="talk-metadata">Talk, Center of Excellence in Genomic (CEGS), Oct. 2016, Stanford, California.</span>
+</div>
