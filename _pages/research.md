@@ -9,6 +9,10 @@ permalink: /research/
 ## Vision
 **We aim to make the regulome a computable system that explains how genomes shape phenotypes.** Biomedicine is entering an inflection point where multimodal and spatial genomics make system-level regulatory modeling both feasible and necessary. We go beyond molecular readouts—markers, pathways, and differential signals—to build mechanistic, system-level models of regulation. Our lab develops element-resolved gene regulatory networks (GRNs) that link cis-regulatory elements, transcription factors, and target genes within cells, and place these networks in tissue context by modeling how cross-cell-type signaling modulates regulatory programs. By combining single-cell, multiomic, and spatial data, we identify driver regulatory mechanisms that underpin disease and generate testable hypotheses about where intervention could restore healthy programs.
 
+<hr>
+
+**All algorithms and methods developed in the lab can be accessed via our [GitHub organization](https://github.com/Durenlab).**
+
 ## Research Pillars
 
 <div style="margin-bottom: 40px;">
