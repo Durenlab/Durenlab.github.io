@@ -12,7 +12,7 @@ permalink: /presentations/
 <hr>
 
 <div style="margin-left: 20px;">
-* 1.	“Integrating Multi-Omics Data for Gene Regulatory Network Inference.” Seminar Talk, Department of Mathematical Sciences Statistics Seminar, University of Nevada, Las Vegas, Nevada. November 14.
+* “Integrating Multi-Omics Data for Gene Regulatory Network Inference.” Seminar Talk, Department of Mathematical Sciences Statistics Seminar, University of Nevada, Las Vegas, Nevada. November 14.
 * “Integrated Multi-Omics for Gene Regulatory Networks Analysis.” Seminar Talk, Program in Computational Biology Seminar, University of Chicago, Chicago, Illinois. Oct 10.
 * “Integrative analysis of single cell and spatial multi-omics data.” Virtual Seminar Talk, Biostatistics seminar, Pennsylvania State University, Hershey, Pennsylvania. Sept 3.
 * “Spatial Resolved Gene Regulatory Networks Analysis.” Invited talk, ICIBM 2025, Columbus, Ohio. August 3-5.
