@@ -20,7 +20,6 @@ permalink: /research/
 <div style="flex: 1; min-width: 300px;">
 <h3>I. Mechanistic & Element-Resolved GRN Inference</h3>
 <p>We develop algorithms that model the physical and functional coupling between chromatin accessibility and gene expression, moving beyond simple correlations to resolve regulatory logic at the level of individual <i>cis</i>-elements and transcription factors. Our approach treats the genome not as a static map, but as a dynamic, coupled system.</p>
-<p><b>Key Frameworks:</b> <b>LINGER</b> (Atlas-informed regulatory learning) and <b>scREG</b> (Cis-regulatory potential modeling).</p>
 </div>
 <div style="flex: 0 0 450px;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/respic/grn.png" alt="GRN Inference" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
@@ -33,7 +32,6 @@ permalink: /research/
 <div style="flex: 1; min-width: 300px;">
 <h3>II. Regulatory Intelligence Across Technology Eras</h3>
 <p>We create "reusable" regulatory knowledge by developing frameworks that adapt pre-trained regulatory priors to new datasets. This bridges the gap between bulk, single-cell multiome, and RNA-only assays, enabling high-fidelity inference even when paired data is missing or noisy across changing experimental designs.</p>
-<p><b>Key Frameworks:</b> <b>REGA</b> (RNA-only regulatory inference) and <b>CoupledNMF</b> (Unpaired modality integration).</p>
 </div>
 <div style="flex: 0 0 450px;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/respic/integration.png" alt="Technology Integration" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
@@ -46,7 +44,6 @@ permalink: /research/
 <div style="flex: 1; min-width: 300px;">
 <h3>III. Spatial Regulatory Landscapes & Cell-Cell Communication</h3>
 <p>We place GRNs in their native tissue context to study how spatial organization and extracellular signaling (ligand-receptor interactions) rewire intracellular regulatory programs. By modeling cross-cell-type signaling, we understand how the tissue environment modulates gene expression.</p>
-<p><b>Key Frameworks:</b> <b>ISON</b> (Spatial GRN inference) and <b>Spatial-Rewiring</b> models.</p>
 </div>
 <div style="flex: 0 0 450px;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/respic/spatial.png" alt="Spatial Genomics" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
@@ -59,7 +56,6 @@ permalink: /research/
 <div style="flex: 1; min-width: 300px;">
 <h3>IV. Regulatory Rewiring in Disease & Perturbations</h3>
 <p>We treat genetic variants, pharmacological treatments, and environmental stressors as "system-level rewiring events." Our goal is to quantitatively predict how these factors shift regulatory programs and identify where intervention could restore healthy states.</p>
-<p><b>Key Frameworks:</b> <b>sc-compReg</b> (Comparative GRN analysis) and <b>Reg-Variants</b> (Non-coding variant prioritization).</p>
 </div>
 <div style="flex: 0 0 450px;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/respic/disease.png" alt="Disease Rewiring" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
