@@ -10,7 +10,7 @@
   
 - title: "Benchmarking component choices for unpaired single cell RNA and epigenomic integration"
   image: benchmark_paper.png
-  description: We present 
+  description: We benchmarked component choices in unpaired single-cell RNA and epigenomic integration workflows. Using 9 paired RNA+ATAC and RNA+histone multiomic datasets as ground-truth references, we evaluated 108 integration pipelines to identify effective methods for each step of the integration workflow. We further determined the workflow step with the greatest impact on integration performance and proposed a robust integration strategy.
   authors: <b> Fnu Naqing </b>, <b> Qiuyue Yuan </b> and <b> Zhana Duren </b>
   link: 
     url: https://link.springer.com/article/10.1186/s13059-026-04071-5#Abs1
