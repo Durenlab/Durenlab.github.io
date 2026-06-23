@@ -40,7 +40,7 @@ We are a computational biology research group at the [Department of Medical and 
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/TimeReg.png" alt="Slide 5" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/summary.png" alt="Slide 6" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Linger_slideshow.png" alt="Slide 6" />
         </div>       
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ISON.png" alt="Slide 7" />
