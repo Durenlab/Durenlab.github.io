@@ -42,14 +42,14 @@ We are a computational biology research group at the [Department of Medical and 
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/summary.png" alt="Slide 6" />
         </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/front.jpg" alt="Slide 7" />
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ISON.png" alt="Slide 7" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ISON.png" alt="Slide 8" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/benchmark_paper.png" alt="Slide 8" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/benchmark_paper.png" alt="Slide 9" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/front.jpg" alt="Slide 9" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/groupPhoto2023.JPG" alt="Slide 10" />
