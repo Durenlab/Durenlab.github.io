@@ -1,5 +1,5 @@
 - title: "Inference of spatial chromatin accessibility via integration of spatial transcriptomics and single-cell multi-omics data"
-  image: ISON_fig.png
+  image: ISON_screenshot.png
   description: We present ISON (Integrated Spatial Omics Network), a unified computational method for integrative spatial multiomics analysis from single cell multiome data and spatial transcriptomics data. ISON accurately predicts chromatin accessibility profiles for spatial spots and reconstructs spatially resolved gene regulatory networks, demonstrating scalability in both time and memory.
   authors: <b> Ishita Debnath </b> and <b> Zhana Duren </b>
   link: 
