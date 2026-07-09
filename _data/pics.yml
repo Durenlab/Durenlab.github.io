@@ -1,6 +1,7 @@
 - id: dragon_boat_2025
   title: 2025 Dragon Boat Festival
   description: We made savory ZongZi together in the office!
+  folder: 2025_Dragon_Boat
   images:
     - file: Image.jpeg
       caption: Making ZongZi
