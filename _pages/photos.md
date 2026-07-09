@@ -6,31 +6,35 @@ permalink: /photos/
 
 <h1>Photos</h1>
 
-<h2>2025 Dragon Boat Festival</h2>
-<p>We made savory ZongZi together in the office!</p>
+{% for event in site.data.pics %}
 
-<div id="dragonBoatCarousel" class="carousel slide event-carousel" data-ride="carousel">
+<h2>{{ event.title }}</h2>
+<p>{{ event.description }}</p>
+
+<div id="{{ event.id }}Carousel" class="carousel slide event-carousel" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#dragonBoatCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#dragonBoatCarousel" data-slide-to="1"></li>
+    {% for image in event.images %}
+    <li data-target="#{{ event.id }}Carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+    {% endfor %}
   </ol>
 
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/2025_Dragon_Boat/Image.jpeg" alt="Dragon Boat Festival photo 1">
-      <div class="carousel-caption">Photo 1 caption</div>
+    {% for image in event.images %}
+    <div class="item {% if forloop.first %}active{% endif %}">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/2025_Dragon_Boat/{{ image.file }}" alt="{{ image.caption }}">
+      <div class="carousel-caption">{{ image.caption }}</div>
     </div>
-
-  <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/2025_Dragon_Boat/Image02.jpeg" alt="Dragon Boat Festival photo 2">
-      <div class="carousel-caption">Photo 2 caption</div>
-    </div>
+    {% endfor %}
   </div>
 
-  <a class="left carousel-control" href="#dragonBoatCarousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#{{ event.id }}Carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
   </a>
-  <a class="right carousel-control" href="#dragonBoatCarousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#{{ event.id }}Carousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
   </a>
 </div>
+
+<hr>
+
+{% endfor %}
