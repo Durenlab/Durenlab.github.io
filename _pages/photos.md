@@ -17,12 +17,12 @@ permalink: /photos/
 
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/Image.jpeg" alt="Dragon Boat Festival photo 1">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/2025_Dragon_Boat/Image.jpeg" alt="Dragon Boat Festival photo 1">
       <div class="carousel-caption">Photo 1 caption</div>
     </div>
 
     <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/Image (1).jpeg" alt="Dragon Boat Festival photo 2">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/2025_Dragon_Boat/Image (1).jpeg" alt="Dragon Boat Festival photo 2">
       <div class="carousel-caption">Photo 2 caption</div>
     </div>
   </div>
