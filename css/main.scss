@@ -97,3 +97,28 @@ firstp {
     margin-right: 30px;
 }
 
+
+/* Photos page carousels */
+.event-carousel {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.event-carousel .item {
+    height: 450px;
+    text-align: center;
+}
+
+.event-carousel .item img {
+    max-width: 100%;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.event-carousel .carousel-caption {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 4px;
+    padding: 10px;
+}
