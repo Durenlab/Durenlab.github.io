@@ -18,10 +18,10 @@ permalink: /photos/
     {% endfor %}
   </ol>
 
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner">
     {% for image in event.images %}
     <div class="item {% if forloop.first %}active{% endif %}">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/{{ image.file }}" alt="{{ image.caption }}">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/{{ event.folder }}/{{ image.file }}" alt="{{ image.caption }}">
       <div class="carousel-caption">{{ image.caption }}</div>
     </div>
     {% endfor %}
