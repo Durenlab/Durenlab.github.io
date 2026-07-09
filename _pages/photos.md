@@ -21,8 +21,8 @@ permalink: /photos/
       <div class="carousel-caption">Photo 1 caption</div>
     </div>
 
-    <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/2025_Dragon_Boat/Image (1).jpeg" alt="Dragon Boat Festival photo 2">
+  <div class="item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/Photos_images/2025_Dragon_Boat/Image02.jpeg" alt="Dragon Boat Festival photo 2">
       <div class="carousel-caption">Photo 2 caption</div>
     </div>
   </div>
