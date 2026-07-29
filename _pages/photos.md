@@ -36,10 +36,11 @@ permalink: /photos/
   max-width: 800px;
   margin: 20px auto;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  background-color: #000;
+  background-color: #ffffff;
 }
 .carousel-inner .item {
   height: 450px;
+  background-color: #ffffff; /* WHITE BACKGROUND */
 }
 .carousel-inner .item img {
   width: 100%;
@@ -54,7 +55,8 @@ permalink: /photos/
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
+  color: #333333;
+  background-color: rgba(255, 255, 255, 0.85);
   text-align: center;
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
