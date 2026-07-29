@@ -56,7 +56,7 @@ permalink: /photos/
   padding-top: 20px;
   padding-bottom: 20px;
   color: #333333;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.4);
   text-align: center;
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
