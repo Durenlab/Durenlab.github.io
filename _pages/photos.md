@@ -48,17 +48,10 @@ permalink: /photos/
   object-fit: contain;
 }
 .carousel-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 20px;
-  left: 15%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #333333;
-  background-color: rgba(255, 255, 255, 0.4);
-  text-align: center;
-  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  ...
+  color: #ffffff !important;
+  background-color: rgba(0, 0, 0, 0.65); /* Dark background */
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }
 </style>
 
