@@ -4,35 +4,68 @@ title: Photos
 permalink: /photos/
 ---
 
-<!-- 引入 Bootstrap 3 轮播图所需的 CSS & JS（如果你的全局 layout 已引入可删掉这几行） -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- Include jQuery & Bootstrap JS ONLY (for arrow clicks / sliding mechanism) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <style>
-/* 修复图片自适应与轮播高宽问题 */
+/* Essential Bootstrap Carousel Layout Styles (Scoped so they won't mess up your page fonts) */
+.carousel { position: relative; }
+.carousel-inner { position: relative; width: 100%; overflow: hidden; }
+.carousel-inner > .item { position: relative; display: none; -webkit-transition: .6s ease-in-out left; transition: .6s ease-in-out left; }
+.carousel-inner > .item > img { display: block; max-width: 100%; height: auto; }
+.carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev { display: block; }
+.carousel-inner > .active { left: 0; }
+.carousel-inner > .next, .carousel-inner > .prev { position: absolute; top: 0; width: 100%; }
+.carousel-inner > .next { left: 100%; }
+.carousel-inner > .prev { left: -100%; }
+.carousel-inner > .next.left, .carousel-inner > .prev.right { left: 0; }
+.carousel-inner > .active.left { left: -100%; }
+.carousel-inner > .active.right { left: 100%; }
+
+/* Carousel Controls (Arrows) */
+.carousel-control { position: absolute; top: 0; bottom: 0; left: 0; width: 15%; font-size: 20px; color: #fff; text-align: center; opacity: 0.5; filter: alpha(opacity=50); }
+.carousel-control.right { right: 0; left: auto; }
+.carousel-control:hover, .carousel-control:focus { color: #fff; text-decoration: none; opacity: .9; }
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right { position: absolute; top: 50%; z-index: 5; display: inline-block; margin-top: -10px; }
+.carousel-control .glyphicon-chevron-left { left: 50%; margin-left: -10px; }
+.carousel-control .glyphicon-chevron-right { right: 50%; margin-right: -10px; }
+
+/* Custom Frame & Image Styling */
 .event-carousel {
   max-width: 800px;
   margin: 20px auto;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  background-color: #000;
 }
 .carousel-inner .item {
-  height: 450px; /* 统一轮播高度，防止高低不一 */
-  background-color: #000;
+  height: 450px;
 }
 .carousel-inner .item img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* 完整展示图片，不拉伸不截断 */
+  object-fit: contain;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 </style>
 
-<h1>Photos</h1>
+# Photos
 
 {% for event in site.data.pics %}
 
-<h2>{{ event.title }}</h2>
-<p>{{ event.description }}</p>
+## {{ event.title }}
+{{ event.description }}
 
 <div id="{{ event.id }}Carousel" class="carousel slide event-carousel" data-ride="carousel">
 <ol class="carousel-indicators">
@@ -46,22 +79,20 @@ permalink: /photos/
 <div class="item {% if forloop.first %}active{% endif %}">
 <img src="{{ site.baseurl }}/images/Photos_images/{{ event.folder }}/{{ image.file }}" alt="{{ image.caption }}">
 <div class="carousel-caption">
-<h3>{{ image.caption }}</h3>
+<p>{{ image.caption }}</p>
 </div>
 </div>
 {% endfor %}
 </div>
 
 <a class="left carousel-control" href="#{{ event.id }}Carousel" role="button" data-slide="prev">
-<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-<span class="sr-only">Previous</span>
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true">&#10094;</span>
 </a>
 <a class="right carousel-control" href="#{{ event.id }}Carousel" role="button" data-slide="next">
-<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-<span class="sr-only">Next</span>
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true">&#10095;</span>
 </a>
 </div>
 
-<hr>
+---
 
 {% endfor %}
