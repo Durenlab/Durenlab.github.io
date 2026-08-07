@@ -1,6 +1,15 @@
-- id: dragon_boat_2025
-  title: 2025 Dragon Boat Festival
+- id: dragon_boat_2026
+  title: 2026 Dragon Boat Festival
   description: We made savory ZongZi (sticky rice dumpling) together in the office!
+  folder: 2025_Dragon_Boat
+  images:
+    - file: Image.jpeg
+      caption: Making ZongZi
+    - file: Image02.jpeg
+      caption: Making ZongZi Pic2
+- id: ISMB_2026
+  title: 2026 Washington DC ISMB Conference
+  description: Our Whole Group went to Washington DC from July 12th to July 16th for the conference!
   folder: 2025_Dragon_Boat
   images:
     - file: Image.jpeg
