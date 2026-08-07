@@ -15,16 +15,16 @@
     - file: Group_pic_2026.jpeg
       caption: New Group Picture!
     - file: Cham_pic1.jpeg
-      caption: 
+      caption: Cham
     - file: Cham_pic2.jpeg
-      caption: 
+      caption: Still Cham
     - file: Cham_pic3.jpeg
-      caption: 
-      - file: Hui_pic.jpeg
-      caption: 
-      - file: Lixin.jpeg
-      caption: 
-      - file: Naqing_poster_1.jpeg
-      caption: 
-      - file: Naqing_poster_2.jpeg
-      caption: 
+      caption: Cham*3
+    - file: Hui_pic.jpeg
+      caption: Hui Presenting Poster
+    - file: Lixin.jpeg
+      caption: Lixin giving talk
+    - file: Naqing_poster_1.jpeg
+      caption: Naqing Presenting Poster
+    - file: Naqing_poster_2.jpeg
+      caption: Still Naqing :)
