@@ -8,7 +8,7 @@ permalink: /presentations/
 
 <div style="margin-left: 20px;">
 
-## 206
+## 2026
 <hr>
 
 <div style="margin-left: 20px;">
@@ -20,6 +20,7 @@ permalink: /presentations/
 * “Modeling Context-Specific Regulatory Effects of Genetic Variants Through Transcription Factor Activity.” Poster, ISMB 2026, Washington, DC. Presenter: Hui Ma. July 12-16.
 
 </div>
+
 ## 2025
 <hr>
 
