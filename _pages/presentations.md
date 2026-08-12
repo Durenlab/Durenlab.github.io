@@ -8,6 +8,18 @@ permalink: /presentations/
 
 <div style="margin-left: 20px;">
 
+## 206
+<hr>
+
+<div style="margin-left: 20px;">
+* "How to Align Unpaired Single-Cell Omics: Benchmarks, Practical Guidelines, and Impacts on Gene Regulatory Modeling" Talk, ISIBM 2026, Jacobs School of Medicine and Biomedical Sciences, University at Buffalo, Buffalo, New York. August 3.
+* “Single-Cell Multiome Analysis Links Genetic Risk to a Cell-Type–Specific Regulatory Program in L6 IT Car3 Neurons Following Opioid Exposure.” Talk and Poster, ISMB 2026, Washington, DC. Presenter: Fengge Chang. July 12-16.
+* “REGA: An Interpretable Hierarchical Network Representation Learning Framework for Reference Regulatory Element–Guided Gene Expression Analysis.” Talk, ISMB 2026, Washington, DC. Presenter: Dr. Lixin Ren. July 12-16.
+* “Inference of Spatial Chromatin Accessibility and Gene Regulatory Network via Integration of Spatial Transcriptomics and Single Cell Multiome Data.” Poster, ISMB 2026, Washington, DC. Presenter: Ishita Debnath. July 12-16.
+* “Benchmarking Component Choices for Unpaired Single Cell RNA and Epigenomic Integration.” Poster, ISMB 2026, Washington, DC. Presenter: FNU Naqing. July 12-16.
+* “Modeling Context-Specific Regulatory Effects of Genetic Variants Through Transcription Factor Activity.” Poster, ISMB 2026, Washington, DC. Presenter: Hui Ma. July 12-16.
+
+</div>
 ## 2025
 <hr>
 
