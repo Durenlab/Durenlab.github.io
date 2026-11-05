@@ -72,3 +72,6 @@ We are part of the <a href="https://medicine.iu.edu">Indiana University School o
 
  **We are looking for new Postdocs, graduate students, and ungraduate students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
+ <br>
+[📄 **Download Curriculum Vitae**]({{ site.baseurl }}/downloads/Zhana_Duren_CV_2026.pdf){:target="_blank"}
+
